@@ -1,6 +1,8 @@
 Introduction
 ============
 
+Revision - 0.1 - Remove durations inconsisent with IBKR API
+
 Currently `backtrader` has a built-in integration for Interactive Brokers (IB) [Trader Workstation API](<http://interactivebrokers.github.io/tws-api/>), but it only works for older versions of the API. 
 
 This project re-worked the orginal integration and created a pluggable version allowing `backtrader` to use the latest IB API.
