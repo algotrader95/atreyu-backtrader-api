@@ -1755,12 +1755,12 @@ class IBStore(with_metaclass(MetaSingleton, object)):
           '1 hour', '2 hours', '3 hours', '4 hours', '8 hours',
           '1 day')),
 
-        # 2 days
-        ('2 D',
-         ('2 mins', '3 mins', '5 mins', '10 mins', '15 mins',
-          '20 mins', '30 mins',
-          '1 hour', '2 hours', '3 hours', '4 hours', '8 hours',
-          '1 day')),
+        # # 2 days
+        # ('2 D',
+        #  ('2 mins', '3 mins', '5 mins', '10 mins', '15 mins',
+        #   '20 mins', '30 mins',
+        #   '1 hour', '2 hours', '3 hours', '4 hours', '8 hours',
+        #   '1 day')),
 
         # 1 weeks
         ('1 W',
@@ -1769,11 +1769,11 @@ class IBStore(with_metaclass(MetaSingleton, object)):
           '1 hour', '2 hours', '3 hours', '4 hours', '8 hours',
           '1 day', '1 W')),
 
-        # 2 weeks
-        ('2 W',
-         ('15 mins', '20 mins', '30 mins',
-          '1 hour', '2 hours', '3 hours', '4 hours', '8 hours',
-          '1 day', '1 W')),
+        # # 2 weeks
+        # ('2 W',
+        #  ('15 mins', '20 mins', '30 mins',
+        #   '1 hour', '2 hours', '3 hours', '4 hours', '8 hours',
+        #   '1 day', '1 W')),
 
         # 1 months
         ('1 M',
@@ -1781,17 +1781,17 @@ class IBStore(with_metaclass(MetaSingleton, object)):
           '1 hour', '2 hours', '3 hours', '4 hours', '8 hours',
           '1 day', '1 W', '1 M')),
 
-        # 2+ months
-        ('2 M', ('1 day', '1 W', '1 M')),
-        ('3 M', ('1 day', '1 W', '1 M')),
-        ('4 M', ('1 day', '1 W', '1 M')),
-        ('5 M', ('1 day', '1 W', '1 M')),
-        ('6 M', ('1 day', '1 W', '1 M')),
-        ('7 M', ('1 day', '1 W', '1 M')),
-        ('8 M', ('1 day', '1 W', '1 M')),
-        ('9 M', ('1 day', '1 W', '1 M')),
-        ('10 M', ('1 day', '1 W', '1 M')),
-        ('11 M', ('1 day', '1 W', '1 M')),
+        # # 2+ months
+        # ('2 M', ('1 day', '1 W', '1 M')),
+        # ('3 M', ('1 day', '1 W', '1 M')),
+        # ('4 M', ('1 day', '1 W', '1 M')),
+        # ('5 M', ('1 day', '1 W', '1 M')),
+        # ('6 M', ('1 day', '1 W', '1 M')),
+        # ('7 M', ('1 day', '1 W', '1 M')),
+        # ('8 M', ('1 day', '1 W', '1 M')),
+        # ('9 M', ('1 day', '1 W', '1 M')),
+        # ('10 M', ('1 day', '1 W', '1 M')),
+        # ('11 M', ('1 day', '1 W', '1 M')),
 
         # 1+ years
         ('1 Y',  ('1 day', '1 W', '1 M')),
